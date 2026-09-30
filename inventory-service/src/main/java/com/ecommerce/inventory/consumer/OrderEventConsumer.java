@@ -3,7 +3,8 @@ package com.ecommerce.inventory.consumer;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
-import com.ecommerce.inventory.event.OrderPlacedEvent;
+//import com.ecommerce.inventory.event.OrderPlacedEvent;
+import com.ecommerce.order.event.OrderPlacedEvent;
 import com.ecommerce.inventory.service.InventoryService;
 
 import lombok.RequiredArgsConstructor;

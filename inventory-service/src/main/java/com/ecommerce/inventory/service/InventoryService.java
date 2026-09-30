@@ -11,7 +11,7 @@ import com.ecommerce.inventory.dto.InventoryRequest;
 import com.ecommerce.inventory.dto.InventoryResponse;
 import com.ecommerce.inventory.entity.Inventory;
 import com.ecommerce.inventory.entity.ProcessedOrder;
-import com.ecommerce.inventory.event.OrderPlacedEvent;
+import com.ecommerce.order.event.OrderPlacedEvent;
 import com.ecommerce.inventory.exception.InventoryNotFoundException;
 import com.ecommerce.inventory.repository.InventoryRepository;
 import com.ecommerce.inventory.repository.ProcessedOrderRepository;
