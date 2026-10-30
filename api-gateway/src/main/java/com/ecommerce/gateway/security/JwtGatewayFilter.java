@@ -65,7 +65,7 @@ public class JwtGatewayFilter implements GlobalFilter, Ordered{
 		private static final Map<String, Map<String, List<String>>> ROLE_API_PERMISSION = Map.of(
 			    "ADMIN", Map.of(
 			        "GET", List.of("/api/products", "/api/categories", "/api/orders", "/api/payments"),
-			        "POST", List.of("/api/products", "/api/categories", "/api/inventory"),
+			        "POST", List.of("/api/products", "/api/categories", "/api/inventory", "/api/orders", "/api/order"),
 			        "PUT", List.of("/api/products", "/api/categories", "/api/payments"),
 			        "DELETE", List.of("/api/products", "/api/categories")
 			    ),
